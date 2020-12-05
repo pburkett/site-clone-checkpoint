@@ -1,0 +1,55 @@
+nav {
+    font-size: 50pt;
+}
+.underlayed-image {
+    min-width: 200px;
+    height: 400px;
+    background-image: url("https:placehold.it/805x400");
+}
+.top-row {
+    min-height: 200px;
+}
+.large-input {
+    min-height: 100px;
+    text-align: start;
+}
+#container-1 {
+    min-height: 30vh;
+
+}
+#container-2 {
+    max-height: 35vh;
+}
+#container-3 {
+    min-height: 60vh;
+}
+#overlay-col {
+    border-left: teal;
+    border-left-style: groove;
+    border-width: 2em;
+    height: min-content;
+}
+#icon-blurb-col {
+    transform: translateY(120px);
+}
+#navbar-offset {
+    height: 80px;
+}
+.light-shadow {
+    box-shadow: -3px 3px 6px 2px rgb(167, 166, 166)
+}
+.dark-shadow {
+    box-shadow: -5px 5px 7px 3px rgb(167, 166, 166)
+}
+.text-card {
+    width: fit-content;
+}
+.second-image {
+    background-image: url("http:placehold.it/700x200");
+}
+#spillover-offset {
+    height: 140px
+}
+.large-font {
+    font-size: 30pt;
+}
