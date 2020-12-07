@@ -4,7 +4,7 @@ nav {
 .underlayed-image {
     min-width: 200px;
     height: 400px;
-    background-image: url("https:placehold.it/805x400");
+    background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202001/Breaking_Bad.jpeg?Ifrqi.v01Y0KfAlAyY172HCu8HZTJJvy&size=770:433");
 }
 .top-row {
     min-height: 200px;
@@ -18,22 +18,29 @@ nav {
 
 }
 #container-2 {
-    max-height: 35vh;
+    max-height: 45vh;
 }
 #container-3 {
     min-height: 60vh;
 }
+#container-4 {
+    min-height:  60vh;
+}
+#footer-container-1 {
+    min-height: 30vh;
+}
+#footer-container-2 {
+    min-height: 20vh
+}
 #overlay-col {
-    border-left: teal;
-    border-left-style: groove;
-    border-width: 2em;
+    border-width: 2em !important;
     height: min-content;
 }
 #icon-blurb-col {
     transform: translateY(120px);
 }
 #navbar-offset {
-    height: 80px;
+    height: 67.5px;
 }
 .light-shadow {
     box-shadow: -3px 3px 6px 2px rgb(167, 166, 166)
@@ -52,4 +59,10 @@ nav {
 }
 .large-font {
     font-size: 30pt;
+}
+#large-quote-col {
+    height: 50vh;
+}
+#small-quote-col {
+    height: fit-content;
 }
