@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fa">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,12 +33,13 @@
         <div class="container-fluid bg-secondary text-light" id="container-1">
             <div class="row mx-5">
                 <div class="col">
-                    <div class="row my-4 text-primary">
-                        <h3>Chemistry Enthusiasts</h3>
+                    <div class="row my-4 text-primary text-center text-lg-left">
+                        <h3 class="w-100">Chemistry Enthusiasts</h3>
                     </div>
                     <div class="row top-row mb-5">
 
-                        <div class="col-4 messaging-card bg-light text-dark mx-5 dark-shadow">
+                        <div
+                            class="col-lg-4 col-10 offset-1 offset-lg-0 dark-shadow messaging-card bg-light text-dark dark-shadow">
 
                             <div class="row my-4 justify-content-center">
                                 <h3>Contact us!</h3>
@@ -76,10 +79,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-7">
-                            <div class="row h-100 underlayed-image">
-                                <div class="col-8 offset-3 mt-4 border-left border-primary text-primary"
-                                    id="overlay-col">
+                        <div class="col-7 offset-1">
+                            <div class="row h-100 underlayed-image d-none d-lg-block dark-shadow">
+
+                                <div class="col-8 offset-2 border-left border-primary text-primary" id="overlay-col">
 
                                     <div class="row ">
                                         <div class="col">
@@ -103,7 +106,7 @@
         </div>
         <div class="container-fluid bg-primary text-dark" id="container-2">
             <div class="row mx-5 justify-content-around" id="text-blurbs-row">
-                <div class=" col-5 my-5">
+                <div class=" col-12 col-lg-5 order-2 order-lg-1 my-5">
                     <div class="row">
                         <div class="light-shadow align-self-start text-card bg-light text-dark">Located in Sunny New
                             Mexico, where the skies are crystal-clear!
@@ -120,7 +123,7 @@
                             doing it!</div>
                     </div>
                 </div>
-                <div class="col-6 bg-light dark-shadow" id="icon-blurb-col">
+                <div class="col-12 col-lg-6 order-1 order-lg-2 mt-5 mt-lg-0 bg-light dark-shadow" id="icon-blurb-col">
                     <div class="row my-5 justify-items-center">
                         <h3 class="col text-dark text-center">Join us for:</h3>
                     </div>
@@ -142,45 +145,62 @@
             </div>
         </div>
         <div class="container-fluid bg-light" id="container-3">
-            <div class="row mx-5 py-5 ">
-                <div class="col-3 py-3"><img class="dark-shadow"
-                        src="https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/jesse-pinkman-ellen-patton.jpg"
-                        alt=""></div>
-                <div class="col-8">
-                    <div class="row" id="spillover-offset"></div>
-                    <div class="row large-font">
-
-                        <div class="col-1 "><i class="fa fa-podcast text-primary" aria-hidden="true"></i></div>
-                        <div class="col bg-secondary">Jesse Pinkman - High School Graduate</div>
-
-                    </div>
-                    <div class="row large-font">
-
-
-                        <div class="col bg-secondary mt-3">Hello, my name is Jesse!</div>
-
-                    </div>
+            <div class="row">
+                <div class="col-lg-10 col-12">
                     <div class="row">
-                        <div class="col bg-secondary mt-3">It's lovely to meet you. I could extoll the virtues of Mr.
-                            White all day, so I will. We first met in highschool, where Mr. White taught me chemistry. I
-                            learned so much! After I graduated, Mr. White and I continued to learn together. Mr. White
-                            is amazing! Join us, and you can learn with us too!</div>
-                    </div>
-                    <div class="row justify-content-end mr-5 mt-3"><button class="btn bg-primary">BUTTON?</button>
+                        <div class="col-12  col-lg-5 pt-5 d-flex justify-content-center">
+                            <img class="dark-shadow"
+                                src="
+                                https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/jesse-pinkman-ellen-patton.jpg""
+                                alt="">
+                            </img>
+                        </div>
+                
+                        <div class=" col-lg-7 col-12 col-lg-7 ">
+                            <div class=" row" id="spillover-offset"></div>
+                        <div class="row large-font">
+
+
+                            <div class="col-2 "><i class="fa fa-graduation-cap text-primary" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10 bg-secondary">Jesse Pinkman - High School Graduate</div>
+
+                        </div>
+                        <div class="row large-font">
+
+
+                            <div class="col bg-secondary mt-3">Hello, my name is Jesse!</div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col bg-secondary mt-3">It's lovely to meet you. I could extoll the virtues
+                                of
+                                Mr.
+                                White all day, so I will. We first met in highschool, where Mr. White taught me
+                                chemistry. I
+                                learned so much! After I graduated, Mr. White and I continued to learn together. Mr.
+                                White
+                                is amazing! Join us, and you can learn with us too!</div>
+                        </div>
+                        <div class="row justify-content-end mr-5 mt-3"><button class="btn bg-primary">BUTTON?</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container-fluid d-flex bg-light align-content-center justify-content-center" id="container-4">
             <div class="row w-100 justify-content-around align-content-center">
-                <div class="col-3 border-bottom border-left light-shadow border-primary" id="small-quote-col">
+                <div class="col-lg-3 col-md-8 order-lg-1 order-2 my-lg-0 my-3 border-bottom border-left light-shadow border-primary quote-card align-self-center"
+                    id="small-quote-col">
                     <h1 class="row">
                         <div class="col">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </div>
                     </h1>
                     <div class="row">
-                        <div class="col text-center">He (Walter White) Said He'll Break My Legs, And Don’t Tell Me He
+                        <div class="col text-center">He (Walter White) Said He'll Break My Legs, And Don’t Tell
+                            Me
+                            He
                             Didn’t Mean
                             It... He Gave Me The Dead Mackerel Eyes.</div>
                     </div>
@@ -188,7 +208,8 @@
                         <div class="col text-center">Saul Goodman
                     </h4>
                 </div>
-                <div class="col-3 border-bottom border-left light-shadow border-primary" id="large-quote-col">
+                <div class="col-lg-3 col-md-8 order-lg-2 order-1 my-lg-0 my-3 border-bottom border-left dark-shadow border-primary quote-card align-self-center"
+                    id="large-quote-col">
                     <h1 class="row justify-content-center">
                         <div class="col-8 d-flex justify-content-around text-primary">
                             <i class="fa fa-star" aria-hidden="true"></i>
@@ -197,25 +218,32 @@
                         </div>
                     </h1>
                     <h1 class="row"><i class="fa fa-quote-left" aria-hidden="true"></i></h1>
-                    <div class="row text-center">I have spent my whole life scared, frightened of things that could
+                    <div class="row text-center">I have spent my whole life scared, frightened of things that
+                        could
                         happen, might happen, might not happen, 50-years I
-                        spent like that. Finding myself awake at three in the morning. But you know what? Ever since my
+                        spent like that. Finding myself awake at three in the morning. But you know what? Ever
+                        since
+                        my
                         diagnosis, I sleep just
-                        fine. What I came to realise is that fear, that’s the worst of it. That’s the real enemy. So,
+                        fine. What I came to realise is that fear, that’s the worst of it. That’s the real
+                        enemy.
+                        So,
                         get up, get out in the
                         real world and you kick that [REDACTED] as hard you can right in the teeth.</div>
                     <h4 class="row">
                         <div class="col text-center">Walter White
                     </h4>
                 </div>
-                <div class="col-3 border-bottom border-left light-shadow border-primary" id="small-quote-col">
+                <div class="col-lg-3 col-md-8 order-lg-3 order-3 my-lg-0 my-3 border-bottom border-left dark-shadow border-primary quote-card align-self-center"
+                    id="small-quote-col">
                     <h1 class="row">
                         <div class="col">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
                         </div>
                     </h1>
                     <div class="row">
-                        <div class="col text-center">So you (Walter White) do have a plan! Yeah Mr. White! Yeah Science!
+                        <div class="col text-center">So you (Walter White) do have a plan! Yeah Mr. White! Yeah
+                            Science!
                         </div>
                     </div>
                     <h4 class="row">
@@ -227,20 +255,24 @@
     </main>
     <footer>
         <div class="container-fluid bg-danger" id="footer-container-1">
-            <div class="row pt-5">
-                <div class="col-6 offset-1 bg-white dark-shadow">Walt 'n' Jesse Inc. is not responsible for injuries
+            <div class="row pt-5 justify-content-center justify-content-lg-start">
+                <div class="col-lg-6 col-10 offset-0 offset-lg-1 bg-white dark-shadow">Walt 'n' Jesse Inc. is not
+                    responsible for
+                    injuries
                     sustained on the job. Injuries may include gunshot wounds, boxcutter injuries, and becoming
                     vehicularly man-slayed.</div>
             </div>
-            <div class="row py-5">
-                <div class="col-9 offset-1 bg-white dark-shadow">Competition with W 'n' J will not be tolerated. "Stay
+            <div class="row py-5 justify-content-center justify-content-lg-start">
+                <div class="col-lg-9 col-10 offset-0 offset-lg-1 bg-white dark-shadow">Competition with W 'n' J will not
+                    be tolerated.
+                    "Stay
                     out of my territory" -Walt</div>
             </div>
         </div>
         <div class="container-fluid d-flex bg-primary justify-content-center align-items-center"
             id="footer-container-2">
-            <div class="row ">
-                <div class="col-8 offset-4">*Please do not apply if Gale </div>
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">*Please do not apply if Gale </div>
             </div>
         </div>
     </footer>
